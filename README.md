@@ -1,4 +1,4 @@
 precog.net
 ----------
 
-https://precog.net
+http://precog.net
