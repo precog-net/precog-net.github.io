@@ -14,4 +14,7 @@ module.exports = {
       {test: /\.tsx?$/, use: 'ts-loader'},
     ],
   },
+  devServer: {
+    contentBase: 'dist',
+  },
 }

@@ -1,12 +1,15 @@
 {
   "scripts": {
-    "start": "webpack-dev-server --watch-poll=1000"
+    "start": "webpack-dev-server --watch-poll=1000",
+    "build": "webpack",
+    "deploy": "gh-pages --dist dist --branch master"
   },
   "devDependencies": {
     "@types/react": "^15.0.12",
     "@types/react-dom": "^0.14.23",
     "@types/react-redux": "^4.4.36",
     "@types/redux": "^3.6.0",
+    "gh-pages": "^0.12.0",
     "ts-loader": "^2.0.1",
     "typescript": "^2.2.1",
     "webpack": "^2.2.1",
